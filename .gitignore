@@ -1,0 +1,21 @@
+# Archivos de entorno y configuración
+.env
+*.log
+
+# Carpetas y archivos del sistema
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Archivos temporales y backups
+cache/
+tmp/
+*.bak
+*.zip
+*.rar
+*.backup
+
+# Librerías externas
+vendor/
+node_modules/
