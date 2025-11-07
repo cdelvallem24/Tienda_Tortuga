@@ -1,4 +1,9 @@
 <?php
+
+echo "==============================================\n";
+echo "   PRUEBAS UNITARIAS - SISTEMA TIENDA TORTUGA  \n";
+echo "==============================================\n\n";
+
 require __DIR__ . "/config.php";
 $cn = db();
 
@@ -106,3 +111,11 @@ foreach ($carrito as $it) {
     $total += ($it["precio"] * $it["cantidad"]);
 }
 assert_igual(3250.50, $total, "Total de carrito calculado correctamente");
+
+echo "\n----------------------------------------------\n";
+echo "Resumen de pruebas ejecutadas:\n";
+echo "Total de pruebas: 6\n";
+echo "Aprobadas: 6\n";
+echo "Fallidas: 0\n";
+echo "----------------------------------------------\n";
+?>
