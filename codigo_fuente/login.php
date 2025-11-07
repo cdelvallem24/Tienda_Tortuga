@@ -1,4 +1,14 @@
 <?php
+
+/*
+ * Proyecto: Tienda Tortuga
+ * Archivo: login.php
+ * Descripción: Valida las credenciales de usuario y gestiona el inicio de sesión.
+ * Autor: Christian Del Valle
+ * Fecha: Noviembre 2025
+ * Versión: 1.0
+ */
+
 // Conexión a la base de datos
 $host = "localhost";
 $dbname = "tienda";
