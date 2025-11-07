@@ -13,10 +13,10 @@ $mail = new PHPMailer(true);
 try {
     // Configuración del servidor SMTP
     $mail->isSMTP();
-    $mail->Host       = 'smtp.office365.com';      // Servidor SMTP
+    $mail->Host       = 'mail.onsec.gob.gt';      // Servidor SMTP
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'wiliamsyos@gmail.com.gt'; // Tu correo
-    $mail->Password   = '123'; // Contraseña o "App Password"
+    $mail->Username   = 'install.software@onsec.gob.gt'; // Tu correo
+    $mail->Password   = 'SopInf*24,'; // Contraseña o "App Password"
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port       = 587;
 
