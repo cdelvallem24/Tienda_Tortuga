@@ -7,6 +7,15 @@
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
+/*
+ * Proyecto: Tienda Tortuga
+ * Descripción: Script de base de datos del sistema web para venta de celulares y accesorios.
+ * Contiene tablas principales como: usuarios, productos, ventas, detalle_venta y carrito.
+ * Versión: 1.0
+ * Fecha: Noviembre 2025
+ * Autor: [Christian Del Valle]
+ */
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
